@@ -1,16 +1,17 @@
 <div id="topic-tags">
-<p><?php _e('Tags:'); ?></p>
 
-<?php if ( bb_get_topic_tags() ) : ?>
+    <p><?php _e('Tags:'); ?></p>
 
-<?php bb_list_tags(); ?>
+    <?php if ( bb_get_topic_tags() ) : ?>
 
-<?php else : ?>
+        <?php bb_list_tags(); ?>
 
-<p><?php printf(__('No <a href="%s">tags</a> yet.'), bb_get_tag_page_link() ); ?></p>
+    <?php else : // bb_get_topic_tags ?>
 
-<?php endif; ?>
+        <p><?php printf(__('No <a href="%s">tags</a> yet.'), bb_get_tag_page_link() ); ?></p>
 
-<?php tag_form(); ?>
+    <?php endif; // bb_get_topic_tags ?>
 
-</div>
+    <?php tag_form(); ?>
+
+</div><!-- /#topics-tags -->

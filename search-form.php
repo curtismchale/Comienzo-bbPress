@@ -4,4 +4,4 @@
 		<input class="text" type="text" size="14" maxlength="100" name="q" id="q" />
 		<input class="submit" type="submit" value="<?php echo esc_attr__( 'Search &raquo;' ); ?>" />
 	</p>
-</form>
+</form><!-- /.search-form -->
