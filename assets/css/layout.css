@@ -434,7 +434,7 @@ input#tagformsub:active {
 #thread li {
 	line-height: 1.5em;
 	clear: both;
-	/* Hack to force padding on .threadauthor on IE */
+	/* Hack to force padding on .thread-author on IE */
 	border-top: 1px solid #fff;
 }
 
@@ -442,17 +442,17 @@ input#tagformsub:active {
 
 #thread li ol li, #thread li ul li { padding: 0; }
 
-.threadauthor {
+.thread-author {
 	float: left;
 	padding: 1em 1em 0 1em;
 	width: 120px;
 }
 
-.threadauthor p { margin: 0; }
+.thread-author p { margin: 0; }
 
-.threadauthor small { font: 11px Verdana, Arial, Helvetica, sans-serif; }
+.thread-author small { font: 11px Verdana, Arial, Helvetica, sans-serif; }
 
-.threadpost {
+.thread-post {
 	padding: 1.5em 1em;
 	margin-left: 140px;
 	background-color: #eee;
@@ -462,13 +462,13 @@ input#tagformsub:active {
 	border-radius: 6px;
 }
 
-#thread li.alt .threadpost { background-color: transparent; }
+#thread li.alt .thread-post { background-color: transparent; }
 
 #thread li.deleted { background-color: transparent; }
 
-#thread li.deleted .threadpost { background-color: #ee8888; }
+#thread li.deleted .thread-post { background-color: #ee8888; }
 
-#thread li.alt.deleted .threadpost { background-color: #ff9999; }
+#thread li.alt.deleted .thread-post { background-color: #ff9999; }
 
 #thread li .post-undelete-link, #thread li.deleted .post-delete-link { display: none; }
 #thread li.deleted .post-undelete-link { display: inline; }
@@ -494,29 +494,29 @@ input#tagformsub:active {
 	background-color: #fff;
 }
 
-#thread li.pingback .threadpost {
+#thread li.pingback .thread-post {
 	background-color: #e4f3e1;
 }
 
-#thread li.pingback.alt .threadpost {
+#thread li.pingback.alt .thread-post {
 	background-color: #fff;
 }
 
-#thread li.pingback .threadauthor {
+#thread li.pingback .thread-author {
 	float: none;
 	padding: 0.9em 0.9em 0;
 	width: auto;
 }
 
-#thread li.pingback .threadauthor strong {
+#thread li.pingback .thread-author strong {
 	font-weight: normal;
 }
 
-#thread li.pingback .threadauthor small {
+#thread li.pingback .thread-author small {
 	color: #333;
 }
 
-#thread li.pingback .threadpost {
+#thread li.pingback .thread-post {
 	margin-left: 0;
 	padding: 0.5em 0.9em 1.5em;
 }
@@ -541,7 +541,7 @@ input#tagformsub:active {
 
 #thread .post li { clear:none; }
 
-.poststuff {
+.post-stuff {
 	clear:both;
 	_clear: none; /* Hack to fix broken .alt coloring in IE6 */
 	border-top: 1px dotted #ccc;
