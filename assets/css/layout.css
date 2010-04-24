@@ -2,7 +2,18 @@
     TODO: need to refactor this so it's blank and ready for styles to be added from a theme
 */
 
-/* stock styles */
+/* =====
+Index
+    
+    1. Stock styles
+        * stock presentational items
+        * headings
+        * typography
+        * links
+        
+====*/
+
+/* 1. stock styles */
     div.clear{clear:both;}
     .required, .error {color:red;}
     input[type=submit]{cursor:pointer;}
@@ -72,9 +83,7 @@ img.avatar { border: 1px solid #ddd; }
 /* header */
     #header {margin: 0 auto 10px; width: 760px; height: 116px; position: relative;}
 
-    #header h1 {
-    	font-family: Georgia;
-    	font-style: italic;
+    #header h1 {font-family: Georgia; font-style: italic;
     	overflow: auto;
     	position: absolute;
     	display: block;
@@ -152,6 +161,8 @@ img.avatar { border: 1px solid #ddd; }
     #header div.search input.submit:active {
     	border-color: rgb(0, 100, 0);
     }
+    
+/* end header */
 
 #main {
 	font-size: 1.2em;
@@ -168,40 +179,46 @@ img.avatar { border: 1px solid #ddd; }
 	font-weight: bold;
 }
 
-#footer {
-	font-family: Georgia;
-	font-style: italic;
-	border-top: 1px solid #ccc;
-	margin: auto;
-	color: #666;
-	font-size: 1.0em;
-	padding-top: 10px;
-	clear: both;
-	text-align: right;
-	width: 760px;
-}
+/* footer */
 
-#footer p.showoff {
-	color: #888;
-}
+    #footer {
+    	font-family: Georgia;
+    	font-style: italic;
+    	border-top: 1px solid #ccc;
+    	margin: auto;
+    	color: #666;
+    	font-size: 1.0em;
+    	padding-top: 10px;
+    	clear: both;
+    	text-align: right;
+    	width: 760px;
+    }
 
-.notice {
-	border: 1px solid #4c9545;
-	background-color: #abd8a2;
-	color: #4c9545;
-	font-size: 1.1em;
-	font-weight: bold;
-	padding: 10px 15px;
-	margin: 0 0 1.1em;
-}
+    #footer p.showoff {
+    	color: #888;
+    }
 
-.notice.error {
-	border-color: #852424;
-	background-color: #ca8a8a;
-	color: #5d2424;
-}
+/* end footer */
 
-.notice p { margin-bottom: 0; }
+/* notice */
+    .notice {
+    	border: 1px solid #4c9545;
+    	background-color: #abd8a2;
+    	color: #4c9545;
+    	font-size: 1.1em;
+    	font-weight: bold;
+    	padding: 10px 15px;
+    	margin: 0 0 1.1em;
+    }
+
+    .notice.error {
+    	border-color: #852424;
+    	background-color: #ca8a8a;
+    	color: #5d2424;
+    }
+
+    .notice p { margin-bottom: 0; }
+/* end notice */
 
 /* Login Form
 =================================== */
